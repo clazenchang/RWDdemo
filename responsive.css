@@ -35,7 +35,7 @@ article p {
 .top_bar {
     color:white;
     background-color: black;
-    height:3em;
+    height:3rem;
     display: flex;
     align-items: center;
     justify-content: right;
