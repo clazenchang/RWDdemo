@@ -1,5 +1,9 @@
 * { margin:0;}
-body { font-size:10px;}
+html { font-size:10px;}
+
+nav {
+    margin-bottom: 3rem;
+}
 
 nav a {
     display: block;
@@ -18,8 +22,14 @@ nav a:hover {
 }
 
 h2 { margin-bottom:5px; }
+
+article {
+    margin-bottom:1.2rem;
+}
+
 article p {
     margin-top:5px;
+    font-size: 1.5rem;
 }
 
 .top_bar {
@@ -38,12 +48,21 @@ article p {
     i:nth-of-type(3):hover{ color: rgb(245, 5, 136);}
 }
 
+.wrapper {
+    margin-bottom:1.5rem;
+    margin-right:1rem;
+    margin:0 1rem 1.5rem 1rem;
+}
+
 .descript {
     background-color: bisque;
+    font-size: 1.5rem;
+    padding:1rem;
 }
 
 .relate {
     background-color: rgb(201, 233, 235);
+    font-size: 1.5rem;
 }
 
 footer {
@@ -107,13 +126,13 @@ footer {
 .f-center {margin-bottom: 2em; width:100%;}
 .f-center p {
     text-decoration:overline underline;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
     margin-top: 2em;
     color:#eee;
 }
 
-.f-center-links a { display:block; }
+.f-center-links a { display:block; font-size:1.5rem; }
 .f-center-links a:hover { color:#bbb ; }
 
 .f-center-links {
